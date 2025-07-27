@@ -1,0 +1,8 @@
+{
+    "cursor_finger_id": 8,
+    "sensitivity": 2.0,
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "smoothing": 10,
+    "cursor_update_threshold": 10
+}
