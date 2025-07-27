@@ -28,6 +28,7 @@ venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
 ```
+Python 3.10.0 is recommended.
 
 3. **Install dependencies:**
 
