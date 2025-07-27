@@ -63,9 +63,9 @@ python app.py
 ```
 AirCursor/
 ├── main.py                # Core logic for hand tracking and cursor control
-├── app.py           # GUI for camera selection and launching the app
-├── ui.py                  # Additional config UI logic (if any)
-├── config.json            # Stores selected camera index
+├── app.py                 # GUI for camera selection and launching the app
+├── ui.py                  # Config UI logic
+├── config.json            # Stores user configurations 
 ├── venv/                  # Virtual environment (excluded in .gitignore)
 └── README.md
 ```
