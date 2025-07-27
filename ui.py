@@ -41,7 +41,7 @@ def load_config():
             "offset_x": 0.0,
             "offset_y": 0.0,
             "smoothing": 15,
-            "cursor_update_threshold": 120
+            "cursor_update_threshold": 10
         }
 
 def save_config(config):

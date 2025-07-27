@@ -37,12 +37,12 @@ def main():
     )
 
     last_cursor_update = 0
-    cursor_update_interval = 1 / 30  # 30 FPS max cursor update
+    cursor_update_interval = 1 / 200  # 30 FPS max cursor update
 
     while True:
         ret, frame = cap.read()
         if not ret or frame is None:
-            time.sleep(0.01)
+            #time.sleep(0.01)
             continue
 
         frame = cv2.resize(frame, (640, 480))
